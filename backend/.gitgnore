@@ -1,0 +1,34 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+.settings/
+.classpath
+.project
+
+# === IntelliJ / Eclipse / VSCode ===
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.launch
+.metadata/
+*.log
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Quarkus Dev Mode artifacts ===
+.quarkus/
+
+# === Logs ===
+*.log
+hs_err_pid*
